@@ -1,9 +1,8 @@
 import React from 'react';
-import postsNotes from './components/Posteos';
-import statusCards from './componentes/Estatus';
-import {useState} from 'react';
-import Estatus from './components/Estatus';
 import Posteos from './components/Posteos';
+import Estatus from './componentes/Estatus';
+import {useState} from 'react';
+
 
 // El componente App es el padre de:
 // - Estatus
@@ -14,7 +13,7 @@ import Posteos from './components/Posteos';
 
 function App(){
   const [likes,setLikes] = useState(0)
-  const [likePost,setLikePost] = useState([])
+
 
   function addLikes(){
     setLikes(likes+1)
