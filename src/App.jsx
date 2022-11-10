@@ -22,7 +22,7 @@ function App(){
   return (
     <div className='App'>
       <Estatus quantityLikes={likes}/>
-      <Posteos addLikes={addLikes}/>
+      <Posteos addlikes={addLikes}/>
     </div>
   );
 
